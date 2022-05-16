@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp
-"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <Button
@@ -13,5 +12,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="로그 찍어보기"/>
+
+    <Button
+        android:id="@+id/btnToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="토스트 띄우기"/>
+    <Button
+        android:id="@+id/btnVariable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="변수 문법 테스트"/>
+    <Button
+        android:id="@+id/btnCondition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="조건문 문법 테스트"/>
+    <Button
+        android:id="@+id/btnRepeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="반복문 테스트"/>
 
 </LinearLayout>
